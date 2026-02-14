@@ -1,0 +1,40 @@
+Propmpts usados en el proceso:
+
+Estoy trabajando en una app HTML + CSS + Javascript Vanilla y local storage. Tu serás un programador senior Frontend. No usarás librerias externas para Javascript pero si puedes usar Bootstrap o tailwind.
+
+El proyecto es un sistema de reservas de un hotel en donde es fundamental que exista una gestion de clientes, estados y estadisticas.
+
+Además existirán varios roles.
+
+El administrador:
+-Puede visualizar todas las reservas
+- Cambiar los estados de las reservas (Pendiente, confirmada, cancelada)
+- Eliminar reservas
+- Acceder al panel estadístico
+- Gestionar usuarios
+
+Operador
+- Confirma las reservas
+- Reprogramar fechas
+- Consultar la agenda diaria
+
+Cliente
+- Registrarse y autenticarse
+- Crear reservas
+- Cancelar sus reservas
+- Consultar su historial de propias reservas
+
+
+Las funcionalidades obligatorias son 
+- CRUD completo de reservas
+- manejo de estados
+-validación de fechas
+- Persistencia completa en localStorage.
+- Protección de vistas según rol.
+
+- Ordena las carpetas en una estructura profesional siguiendo recomendaciones profesionales y buenas prácticas
+
+-El formulario para iniciar sesión como administrador tiene un Bug. Me redirige a la sesión de registro como si estuviese creándome una nueva cuenta de cliente. Este es el error:
+admin.page.js:13 Uncaught TypeError: Cannot read properties of null (reading 'addEventListener') at admin.page.js:13:11
+
+
