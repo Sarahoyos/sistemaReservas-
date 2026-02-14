@@ -58,36 +58,34 @@ El objetivo fue demostrar cómo un sistema completo puede diseñarse correctamen
 
 ## 🗂 Estructura del Proyecto
 
+# 📁 Estructura del Proyecto
+
 /src
-│
 ├── index.html → Login
 ├── register.html → Registro cliente
 ├── admin.html → Panel administrador
 ├── operator.html → Panel operador
 ├── client.html → Panel cliente
 ├── stats.html → Panel estadístico
-├── 403.html → Vista acceso denegado
-│
+├── estadistico.html → Panel estadístico
+├── acceso-denegado.html → Vista acceso denegado
 ├── /css
-│ └── styles.css
-│
-└── /js
-├── /core → Infraestructura base
-│ ├── constants.js
-│ ├── storage.js
-│ ├── utils.js
-│ └── guards.js
-│
-├── /services → Lógica de negocio
-│ ├── auth.service.js
-│ ├── users.service.js
-│ ├── reservations.service.js
-│ └── stats.service.js
-│
-└── /pages → Controladores por vista
-├── login.page.js
-├── register.page.js
-├── admin.page.js
-├── operator.page.js
-├── client.page.js
-└── stats.page.js
+│   └── styles.css
+├── /js
+│   ├── /core → Infraestructura base
+│   │   ├── constants.js
+│   │   ├── storage.js
+│   │   ├── utils.js
+│   │   └── guards.js
+│   ├── /services → Lógica de negocio
+│   │   ├── auth.service.js
+│   │   ├── users.service.js
+│   │   ├── reservations.service.js
+│   │   └── stats.service.js
+│   └── /pages → Controladores por vista
+│       ├── login.page.js
+│       ├── register.page.js
+│       ├── admin.page.js
+│       ├── operator.page.js
+│       ├── client.page.js
+│       └── stats.page.js
