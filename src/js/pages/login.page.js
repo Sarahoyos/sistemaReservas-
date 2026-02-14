@@ -1,5 +1,4 @@
 import { AuthService } from "../service/auth.service.js";
-import { AuthService } from "../service";
 
 import { qs } from "../core/utils.js";
 
