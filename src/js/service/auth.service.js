@@ -1,6 +1,6 @@
 import { Storage } from "../core/storage.js";
 import { LS_KEYS, ROLES } from "../core/constants.js";
-import { UsersService } from "./users.service.js";
+import { UsersService } from "../service/users.service.js";
 import { roleHome } from "../core/guards.js";
 
 export const AuthService = {

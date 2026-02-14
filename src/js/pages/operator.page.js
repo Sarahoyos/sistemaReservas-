@@ -1,7 +1,7 @@
 import { requireRole } from "../core/guards.js";
 import { ROLES, STATUS_LABEL, STATUS_BADGE } from "../core/constants.js";
-import { ReservationsService } from "../services/reservations.service.js";
-import { AuthService } from "../services/auth.service.js";
+import { ReservationsService } from "../service/reservations.service.js";
+import { AuthService } from "../service/auth.service.js";
 import { qs, escapeHTML, formatDate, nowISODate } from "../core/utils.js";
 
 const session = requireRole([ROLES.OPERATOR]);

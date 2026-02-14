@@ -1,4 +1,4 @@
-import { AuthService } from "../services/auth.service.js";
+import { AuthService } from "../service/auth.service.js";
 import { qs } from "../core/utils.js";
 
 AuthService.init();

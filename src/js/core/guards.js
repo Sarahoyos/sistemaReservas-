@@ -1,5 +1,5 @@
 import { ROLES } from "./constants.js";
-import { AuthService } from "../services/auth.service.js";
+import { AuthService } from "../service/auth.service.js";
 
 export function requireAuth(redirectTo = "index.html") {
   const session = AuthService.getSession();

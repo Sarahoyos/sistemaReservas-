@@ -1,7 +1,7 @@
 import { requireRole } from "../core/guards.js";
 import { ROLES, STATUS_LABEL } from "../core/constants.js";
-import { StatsService } from "../services/stats.service.js";
-import { AuthService } from "../services/auth.service.js";
+import { StatsService } from "../service/stats.service.js";
+import { AuthService } from "../service/auth.service.js";
 import { qs, escapeHTML } from "../core/utils.js";
 
 requireRole([ROLES.ADMIN]);
